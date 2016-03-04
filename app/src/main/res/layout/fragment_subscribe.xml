@@ -1,0 +1,23 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="gr.gkortsaridis.mytwowaystream.SubscribeFragment">
+
+    <Button
+        android:id="@+id/subscribeButton"
+        android:layout_width="50dp"
+        android:layout_height="match_parent"
+        android:text="start"
+        android:layout_marginBottom="0dp"
+        android:layout_alignParentBottom="true" />
+
+    <com.red5pro.streaming.view.R5VideoView
+        android:id="@+id/subscribeView"
+        android:layout_centerHorizontal="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

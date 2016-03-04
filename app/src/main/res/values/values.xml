@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="domain">83.212.118.131</string>
+    <string name="context">live</string>
+    <integer name="port">8554</integer>
+    <integer name="bitrate">256</integer>
+    <integer name="highBitrate">768</integer>
+</resources>
